@@ -1,0 +1,6 @@
+keymap="en"
+windowkeys="YES"
+extended_keymaps=""
+#extended_keymaps="backspace keypad euro2"
+dumpkeys_charset=""
+fix_euro="NO"

@@ -1,0 +1,6 @@
+>=sys-libs/tevent-0.9.28 python
+>=mate-base/mate-menus-1.12.0-r1 python
+>=sys-libs/tdb-1.3.8 python
+>=sys-libs/ntdb-1.0-r1 python
+>=app-crypt/pinentry-0.9.7-r1 gnome-keyring
+>=net-fs/samba-3.4.6 client

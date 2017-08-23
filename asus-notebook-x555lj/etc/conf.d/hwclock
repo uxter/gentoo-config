@@ -1,0 +1,4 @@
+clock="local"
+#clock_hctosys="YES"
+#clock_systohc="YES"
+clock_args=""

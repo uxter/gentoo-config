@@ -1,0 +1,7 @@
+# Configuration file for eselect
+# This file has been automatically generated.
+LC_ALL="en_US.UTF-8"
+LANG="en_US.utf8"
+LC_MESSAGES="POSIX"
+LC_NUMERIC="POSIX"
+LC_TIME="POSIX"

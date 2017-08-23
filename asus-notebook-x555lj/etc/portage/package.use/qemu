@@ -1,0 +1,1 @@
+>=app-emulation/qemu-2.9.0-r2 aio alsa bluetooth bzip2 caps curl fdt filecaps gtk jpeg ncurses nls opengl pin-upstream-blobs png pulseaudio sdl seccomp usb vhost-net vnc xattr accessibility gtk2 nfs snappy spice virgl virtfs vte xfs

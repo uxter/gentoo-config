@@ -1,0 +1,4 @@
+>=dev-java/oracle-jdk-bin-1.8.0.121 alsa cups fontconfig nsplugin javafx
+>=dev-java/oracle-jre-bin-1.8.0.121 alsa cups fontconfig nsplugin
+>=dev-java/swing-layout-1.0.4 source
+>=dev-java/junit-4.12-r1 source
