@@ -4,7 +4,7 @@
 
 ## How to install
 1. Download install-amd64-minimal-<\d+>.iso from http://mirror.yandex.ru/gentoo-distfiles/releases/amd64/autobuilds/current-stage3-amd64/
-2. Burn install-amd64-minimal-<\d+>.iso to a USB device using.<br>
+2. Burn install-amd64-minimal-<\d+>.iso to a USB device using `dd`.<br>
 For example:<br>
 ``` bash
 root ~ # dd if=install-amd64-minimal-20170817.iso of=/dev/sdc
