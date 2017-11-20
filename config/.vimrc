@@ -8,13 +8,19 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'scrooloose/syntastic'
+Plugin 'vim-syntastic/syntastic'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'kassio/neoterm'
 Plugin 'kern/vim-es7'
 Plugin 'mxw/vim-jsx'
 Plugin 'isRuslan/vim-es6'
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'paradigm/vim-multicursor'
+Plugin 'pangloss/vim-javascript'
+Plugin 'vim-scripts/AutoComplPop'
+Plugin 'vim-scripts/FuzzyFinder'
+Plugin 'majutsushi/tagbar'
+Plugin 'vim-scripts/L9'
 
 call vundle#end()
 filetype plugin indent on
@@ -22,10 +28,19 @@ filetype plugin indent on
 autocmd vimenter * NERDTree
 colorscheme DevC++
 
-syntax on
+syntax enable
 
 set exrc
 set secure
+
+map <C-n> :NERDTreeToggle<CR>
+autocmd vimenter * NERDTree
+set number
+set noswapfile
+set tabstop=4
+set shiftwidth=4
+set expandtab
+au BufNewFile,BufRead *.ejs set filetype=html
 
 "statusline setup
 set statusline =%#identifier#
