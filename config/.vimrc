@@ -21,12 +21,13 @@ Plugin 'vim-scripts/AutoComplPop'
 Plugin 'vim-scripts/FuzzyFinder'
 Plugin 'majutsushi/tagbar'
 Plugin 'vim-scripts/L9'
+Plugin 'chriskempson/tomorrow-theme'
+Plugin 'blueshirts/darcula'
 
 call vundle#end()
 filetype plugin indent on
 
 autocmd vimenter * NERDTree
-colorscheme DevC++
 
 syntax enable
 
@@ -34,13 +35,19 @@ set exrc
 set secure
 
 map <C-n> :NERDTreeToggle<CR>
+map <F5> :w<CR>:!make all && make run<CR>
 autocmd vimenter * NERDTree
+
+set t_Co=256
 set number
 set noswapfile
 set tabstop=4
 set shiftwidth=4
 set expandtab
 au BufNewFile,BufRead *.ejs set filetype=html
+
+"colorscheme Tomorrow-Night
+colorscheme darcula
 
 "statusline setup
 set statusline =%#identifier#
