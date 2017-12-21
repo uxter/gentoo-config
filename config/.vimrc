@@ -36,6 +36,8 @@ set secure
 
 map <C-n> :NERDTreeToggle<CR>
 map <F5> :w<CR>:!make all && make run<CR>
+map <C-s> :w<CR>
+map <C-x> :q<CR>
 autocmd vimenter * NERDTree
 
 set t_Co=256
