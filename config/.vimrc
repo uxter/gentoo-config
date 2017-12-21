@@ -23,11 +23,14 @@ Plugin 'majutsushi/tagbar'
 Plugin 'vim-scripts/L9'
 Plugin 'chriskempson/tomorrow-theme'
 Plugin 'blueshirts/darcula'
+Plugin 'heavenshell/vim-prettier'
 
 call vundle#end()
 filetype plugin indent on
 
 autocmd vimenter * NERDTree
+"npm i -g prettier-eslint-cli
+autocmd BufWritePost *.js,*.jsx call prettier#run(1)
 
 syntax enable
 
