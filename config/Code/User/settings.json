@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 14,
+    "editor.lineHeight": 15,
+    "editor.fontFamily": "Ubuntu Mono",
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#2C2C2C"
+    }
+}
